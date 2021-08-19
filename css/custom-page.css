@@ -1,0 +1,236 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*index*/
+
+#divider {
+	background: url(../assets/img/hiace.jpg) no-repeat center center fixed;
+	display: table;
+	height: 350px;
+	position: relative;
+	width: 100%;
+  background-size: cover;
+  color: #fff;
+  background-color: rgb(156, 156, 156);
+  background-blend-mode: multiply;
+ 
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+  vertical-align: middle;
+  text-shadow: 1px 1px 10px #000;
+  text-transform: uppercase;
+}
+/*index*/
+
+/*About*/
+
+/*Carousel*/
+#multi-item-example{
+  background-color: #000000;
+  height: 590px;
+}
+.img-fluid{
+  max-width: 100% !important;
+  max-height: 440px !important;
+}
+/*Gallery Arrows*/
+.controls-top {
+  padding: 2%;
+  text-align:center;
+}
+.fa-arrow-left{
+  color: #fff;
+}
+.fa-arrow-left:hover{
+  color: rgb(107, 96, 96);
+}
+.fa-arrow-right{
+  color: #ffffff;
+}
+.fa-arrow-right:hover{
+  color: rgb(107, 96, 96);
+}
+/*about*/
+
+
+/*car-listing*/
+.padding {
+	padding: 10%;
+}
+
+.padding h2{
+  margin-top: 5%;
+}
+
+.padding h4{
+  text-transform: uppercase;
+}
+
+.padding dl{
+  margin-bottom: 2%;
+  background-color:#fceded ;
+  padding: 5%;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.padding dl #btn-listing{
+  margin: 2% 2% 0% 25%;
+  padding: 3% 8% 3% 8%;
+  text-transform: uppercase;
+  background-color: rgb(255, 145, 66);
+  font-weight: 500;
+}
+
+.padding dl #btn-listing:hover{
+  background-color: rgb(218, 218, 218);
+}
+
+.padding #img {
+  border: 1px solid #000000;
+  margin-bottom: 12%;
+}
+
+/*Content*/
+
+.padding {
+	padding: 2%;
+}
+
+.padding h2{
+  margin: 5% 0;
+}
+
+.padding p{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.padding img {
+	width: 100%;
+}
+
+/*car-listing*/
+
+/* car-booking */
+.padding #verify {
+  margin-top: 20%;
+  background-color:#fceded ;
+  padding: 8%;
+  border-radius: 5px;
+}
+.padding #verify .btns{
+ padding: 3%;
+}
+/* car-booking */
+
+/* status-reply */
+.padding #status {
+  margin: 2% 20% 0% 20%;
+  background-color:#fceded ;
+  padding: 8%;
+  border-radius: 5px;
+}
+.padding #status .btns{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3%;
+}
+
+.padding #status .btns #btn-dtl-home{
+  padding: 1.5% 6% 1.5% 6%;
+  font-weight: 600;
+  color: #000;
+}
+
+
+/* status-reply */
+
+
+
+
+
+
+/*contact-us*/
+footer {
+	width: 100%;
+  background-color: rgb(53, 25, 25);
+  height: 400px;
+	padding: 5% 5% 5% 5%;
+	color: #FFF;
+} 
+
+.fab {
+	padding: 15px !important;
+	font-size: 30px;
+	color:#FFF;
+}
+
+.fa-facebook:hover{
+	color:#613edf;
+	text-decoration: none;
+}
+
+.fa-twitter:hover{
+	color:#72b5f3;
+	text-decoration: none;
+}
+
+.fa-instagram:hover{
+  color:#dbf353f8;
+	text-decoration: none;
+}
+
+.fa-google:hover{
+	color:#0f992d;
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+
+/*contact-us*/
+
+/*login*/
+.box{  
+    margin-top: 50px;
+    position: absolute;
+    width:650px;
+    height: 500px;
+    background-color: aliceblue;
+    left:30%;
+    margin-left: -50px;
+}
+/*login*/
+
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+
+  .carousel-multi-item-2 .col-md-3 {
+  float: left;
+  width: 25%;
+  max-width: 100%; } }
+
+  .carousel-multi-item-2 .card img {
+  border-radius: 2px; }
+
+  @media (max-width: 768px) {
+    #multi-item-example{
+      background-color: #000000;
+      height: 2500%;
+    }
+    #footer {
+      background-color: rgb(53, 25, 25);
+      height: 2500%;
+  }
+}
+/*Media Queries*/
+

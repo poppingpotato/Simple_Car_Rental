@@ -1,0 +1,89 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*login*/
+.box{  
+    margin-top: 100px;
+    position: absolute;
+    width:500px;
+    height: 350px;
+    background-color: aliceblue;
+    left:35%;
+    margin-left: -50px;
+}
+/*login*/
+
+.container{
+  width: 500%;
+}
+
+/*sidebar*/
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #3a4147;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+  }
+  
+  .sidebar a {
+    display: block;
+    color: rgb(216, 208, 208);
+    padding: 5px 0px 5px 20px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 500px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+/*sidebar*/
+
+
+/* some changes in bootstrap modal */
+.modal-dialog {
+  max-width: 600px !important;
+}
+.modal-body {
+  padding: 20px 20px 0px 20px !important;
+  text-align: center !important;
+}
+
+.modal-footer{
+  text-align: center !important;
+}
+/*modal*/
