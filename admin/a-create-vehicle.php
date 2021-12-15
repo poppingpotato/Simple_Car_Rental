@@ -42,7 +42,7 @@ if($_POST){
         </div>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" enctype="multipart/form-data" id="createEntryForm">
         <div class="modal-body" >
-            <table class='table table-hover '>
+            <table class='table table-hover'>
                 <tr>
                     <td>Car</td>
                     <td>

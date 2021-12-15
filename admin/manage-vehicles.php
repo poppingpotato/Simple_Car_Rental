@@ -11,8 +11,8 @@ include_once '../classes/transmission.php';
 // get database connection
 $database = new Database();
 $db = $database->getConnection();
- 
-// pass connection to objects
+
+//pass connection to objects
 $cars = new Cars($db);
 $vehicle = new Vehicle($db);
 $transmission = new Transmission($db);
@@ -37,6 +37,7 @@ include_once 'a-header.php';
                         echo "<i class='fas fa-plus'></i> Create Car Entry";
                     echo "</button>";
                 echo "</div>";
+                // generate pdf
                 echo"<form action='generatepdf.php' method='POST'>";
                     echo "<div class='col-md p-0'>";
                         echo "<button href='generatepdf.php' type='submit' class='btn btn-primary'>";

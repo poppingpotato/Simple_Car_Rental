@@ -6,6 +6,7 @@ $uid = $_SESSION['uid'];
 if (!$user->get_session()){
  header("location:../login.php");
 }
+
 if (isset($_GET['q'])){
   $user->user_logout();
   echo "<script type = \"text/javascript\">
@@ -25,8 +26,6 @@ if (isset($_GET['q'])){
 
   <!-- Jquery UI theme -->
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-
 
   <!-- custom css -->
   <link rel="stylesheet" href="../css/custom-page.css">

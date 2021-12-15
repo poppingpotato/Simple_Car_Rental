@@ -22,6 +22,7 @@ if($_POST){
             echo "Car was deleted.";
         echo "</div>";
     }
+    
     // if unable to delete the product
     else{
         echo "<div class='alert alert-danger' role='alert' data-auto-dismiss='1500'>";
